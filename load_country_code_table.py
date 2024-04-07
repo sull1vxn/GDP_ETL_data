@@ -16,8 +16,8 @@ iso_codes = ['ABW', 'AFG', 'AGO', 'ALB', 'AND', 'ARE', 'ARG', 'ARM', 'ASM', 'ATG
               'VCT', 'VEN', 'VGB', 'VIR', 'VNM', 'VUT', 'WSM', 'YEM', 'ZAF', 'ZMB', 'ZWE']
 
 
-cnx = mysql.connector.connect(user = 'root', port = '3306', 
-                              database = 'GDP_ETL_DATA')
+cnx = mysql.connector.connect(user = 'x', port = 'x', 
+                              database = 'x')
 cursor = cnx.cursor()
 
 def insert_into_table(countrycode):
